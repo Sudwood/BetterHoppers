@@ -17,7 +17,7 @@ import com.sudwood.betterhoppers.container.ContainerBetterHopper;
 public class GuiBetterHopper extends GuiContainer
 {
     private static final ResourceLocation hopperGuiTextures = new ResourceLocation("textures/gui/container/hopper.png");
-    private static final ResourceLocation biggerHopperGui = new ResourceLocation("betterhoppers", "/textures/bigger_hopper_gui.png");
+    private static final ResourceLocation biggerHopperGui = new ResourceLocation("betterhoppers", "textures/bigger_hopper_gui.png");
     private IInventory playerInventory;
     private IInventory blockInventory;
     private boolean isBigger;

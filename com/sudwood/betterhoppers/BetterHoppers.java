@@ -24,12 +24,12 @@ import cpw.mods.fml.common.network.NetworkMod;
 import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-@Mod(modid="BetterHoppers", name="BetterHoppers", version="0.0.1")
+@Mod(modid="betterhoppers", name="BetterHoppers", version="0.0.1")
 @NetworkMod(clientSideRequired=true)
 public class BetterHoppers 
 {
     // The instance of your mod that Forge uses.
-    @Instance(value = "BetterHoppers")
+    @Instance(value = "betterhoppers")
     public static BetterHoppers instance;
     
     // Says where the client and server 'proxy' code is loaded.

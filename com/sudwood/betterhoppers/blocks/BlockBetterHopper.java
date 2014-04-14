@@ -338,42 +338,42 @@ public class BlockBetterHopper extends BlockHopper
     	switch(Type)
     	{
     	case 0: // better hopper
-    		this.hopperIcon = par1IconRegister.registerIcon("BetterHoppers:hopper_outside");
+    		this.hopperIcon = par1IconRegister.registerIcon("betterhoppers:hopper_outside");
             this.hopperTopIcon = par1IconRegister.registerIcon("hopper_top");
             this.hopperInsideIcon = par1IconRegister.registerIcon("hopper_inside");
     		break;
     	case 1: // faster
-    		this.hopperIcon = par1IconRegister.registerIcon("BetterHoppers:faster_hopper_outside");
+    		this.hopperIcon = par1IconRegister.registerIcon("betterhoppers:faster_hopper_outside");
             this.hopperTopIcon = par1IconRegister.registerIcon("hopper_top");
             this.hopperInsideIcon = par1IconRegister.registerIcon("hopper_inside");
     		break;
     	case 2: // stronger
-    		this.hopperIcon = par1IconRegister.registerIcon("BetterHoppers:stronger_hopper_outside");
+    		this.hopperIcon = par1IconRegister.registerIcon("betterhoppers:stronger_hopper_outside");
             this.hopperTopIcon = par1IconRegister.registerIcon("hopper_top");
             this.hopperInsideIcon = par1IconRegister.registerIcon("hopper_inside");
     		break;
     	case 3: // bigger
-    		this.hopperIcon = par1IconRegister.registerIcon("BetterHoppers:bigger_hopper_outside");
+    		this.hopperIcon = par1IconRegister.registerIcon("betterhoppers:bigger_hopper_outside");
             this.hopperTopIcon = par1IconRegister.registerIcon("hopper_top");
             this.hopperInsideIcon = par1IconRegister.registerIcon("hopper_inside");
     		break;
     	case 4: // faster stronger
-    		this.hopperIcon = par1IconRegister.registerIcon("BetterHoppers:faster_strongerhopper_outside");
+    		this.hopperIcon = par1IconRegister.registerIcon("betterhoppers:faster_strongerhopper_outside");
             this.hopperTopIcon = par1IconRegister.registerIcon("hopper_top");
             this.hopperInsideIcon = par1IconRegister.registerIcon("hopper_inside");
     		break;
     	case 5: // faster bigger
-    		this.hopperIcon = par1IconRegister.registerIcon("BetterHoppers:faster_bigger_hopper_outside");
+    		this.hopperIcon = par1IconRegister.registerIcon("betterhoppers:faster_bigger_hopper_outside");
             this.hopperTopIcon = par1IconRegister.registerIcon("hopper_top");
             this.hopperInsideIcon = par1IconRegister.registerIcon("hopper_inside");
     		break;
     	case 6: // bigger stronger
-    		this.hopperIcon = par1IconRegister.registerIcon("BetterHoppers:stronger_bigger_hopper_outside");
+    		this.hopperIcon = par1IconRegister.registerIcon("betterhoppers:stronger_bigger_hopper_outside");
             this.hopperTopIcon = par1IconRegister.registerIcon("hopper_top");
             this.hopperInsideIcon = par1IconRegister.registerIcon("hopper_inside");
     		break;
     	case 7: // faster bigger stronger
-    		this.hopperIcon = par1IconRegister.registerIcon("BetterHoppers:faster_bigger_stronger_hopper_outside");
+    		this.hopperIcon = par1IconRegister.registerIcon("betterhoppers:faster_bigger_stronger_hopper_outside");
             this.hopperTopIcon = par1IconRegister.registerIcon("hopper_top");
             this.hopperInsideIcon = par1IconRegister.registerIcon("hopper_inside");
     		break;
@@ -396,23 +396,23 @@ public class BlockBetterHopper extends BlockHopper
     	switch(Type)
     	{
     	case 0: // better hopper
-    		return "BetterHoppers:hopper";
+    		return "betterhoppers:hopper";
     	case 1: // faster
-    		return "BetterHoppers:faster_hopper";
+    		return "betterhoppers:faster_hopper";
     	case 2: // stronger
-    		return "BetterHoppers:stronger_hopper";
+    		return "betterhoppers:stronger_hopper";
     	case 3: // bigger
-    		return "BetterHoppers:bigger_hopper";
+    		return "betterhoppers:bigger_hopper";
     	case 4: // faster stronger
-    		return "BetterHoppers:faster_stronger_hopper";
+    		return "betterhoppers:faster_stronger_hopper";
     	case 5: // faster bigger
-    		return "BetterHoppers:faster_bigger_hopper";
+    		return "betterhoppers:faster_bigger_hopper";
     	case 6: // bigger stronger
-    		return "BetterHoppers:bigger_stronger_hopper";
+    		return "betterhoppers:bigger_stronger_hopper";
     	case 7: // faster bigger stronger
-    		return "BetterHoppers:faster_bigger_stronger_hopper";
+    		return "betterhoppers:faster_bigger_stronger_hopper";
     	default:
-    		return "BetterHoppers:hopper";
+    		return "betterhoppers:hopper";
     	}
         
     }
